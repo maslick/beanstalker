@@ -11,7 +11,7 @@
     "containerDefinitions": [
         {	
             "name": "dev",
-            "image": "gcr.io/google-samples/hello-app:1.0",
+            "image": "maslick/beanstalker",
             "essential": true,
             "memory": 128,
             "environment": [
@@ -23,7 +23,7 @@
         },	
         {	
             "name": "prod",
-            "image": "gcr.io/google-samples/hello-app:1.0",
+            "image": "maslick/beanstalker",
             "essential": true,
             "memory": 128,
             "environment": [
